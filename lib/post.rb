@@ -9,10 +9,7 @@ class Post
     @@all
   end
   def author_name
-    if self.autho.name==nil
-      return nil
-    else
     self.author.name
-  end
+  #end
   end
 end
